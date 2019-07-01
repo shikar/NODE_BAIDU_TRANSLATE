@@ -1,0 +1,44 @@
+{
+  "name": "translate-baidu",
+  "version": "1.0.0",
+  "description": "A free and unlimited for Baidu Translate, Multi-translation support object input",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shikar/NODE_BAIDU_TRANSLATE.git"
+  },
+  "keywords": [
+    "translate",
+    "baidu",
+    "translator",
+    "free",
+    "unlimited",
+    "language",
+    "batch",
+    "multi",
+    "object",
+    "token"
+  ],
+  "author": {
+    "name": "shikar",
+    "email": "qzh.shi@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shikar/NODE_BAIDU_TRANSLATE/issues"
+  },
+  "homepage": "https://github.com/shikar/NODE_BAIDU_TRANSLATE#readme",
+  "dependencies": {
+    "configstore": "^5.0.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "user-agents": "^1.0.300"
+  },
+  "devDependencies": {
+    "ava": "^2.1.0",
+    "nyc": "^14.1.1"
+  }
+}
