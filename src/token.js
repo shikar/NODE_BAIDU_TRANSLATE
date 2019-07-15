@@ -87,7 +87,7 @@ function getTomorrowZero() {
 
 async function update() {
   const params = store.get('PARAMS')
-  if (params && params.expires > new Date()) {
+  if (params && params.expires > new Date().getTime()) {
     window.gtk = params.gtk
     return params
   } else {

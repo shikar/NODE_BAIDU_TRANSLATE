@@ -9,13 +9,15 @@ const translate = {
   v2: async (query, from, to, full = false) => {
     const { sign, token, cookie } = await token1.get(query)
     const qs = {
-      transtype: "realtime",
+      from, to, query,
+      transtype: "translang",
       simple_means_flag: 3,
-      from, to, query, sign, token
+      sign, token
     }
     try {
       const opts = {
         uri: transapi.v2,
+        gzip: true,
         headers: {
           'User-Agent': new userAgents({ deviceCategory: 'desktop' }).toString(),
           Referer: FANYI_BAIDU_URL,
