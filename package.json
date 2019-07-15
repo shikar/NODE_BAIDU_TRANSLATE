@@ -1,6 +1,6 @@
 {
   "name": "translate-baidu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A free and unlimited for Baidu Translate, Multi-translation support object input",
   "main": "index.js",
   "scripts": {
